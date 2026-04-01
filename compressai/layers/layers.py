@@ -87,4 +87,3 @@ class Win_noShift_Attention(nn.Module):
         out = a * torch.sigmoid(b)
         out += identity
         return out
-
