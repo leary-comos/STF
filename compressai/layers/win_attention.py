@@ -212,4 +212,4 @@ if __name__ == '__main__':
     # x = window_partition(x)
     x = attn(x)
     print(x.shape)
-
+
