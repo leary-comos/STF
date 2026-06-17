@@ -102,4 +102,3 @@ class GDN1(GDN):
         out = x * norm
 
         return out
-
