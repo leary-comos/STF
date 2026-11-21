@@ -784,4 +784,4 @@ class SymmetricalTransFormer(CompressionModel):
         x_hat = self.end_conv(y_hat.view(-1, Wh, Ww, self.embed_dim).permute(0, 3, 1, 2).contiguous()).clamp_(0, 1)
         return {"x_hat": x_hat}
 
-
+
